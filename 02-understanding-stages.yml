@@ -8,25 +8,25 @@ pool:
 stages:
 - stage: Build
   jobs:
-  - job: First job
+  - job: Firstjob
     steps: 
-    - bash: echo Build First Job
+    - bash: echo FirstJob
   - job: Second job
     steps: 
-    - bash: echo Build Second Job  
+    - bash: echo  SecondJob  
 - stage: QADeploy
   jobs:
   - job: First job
     steps: 
-    - bash: echo Build First QADeployJob
+    - bash: echo  First QADeployJob
   - job: Second job
     steps: 
-    - bash: echo Build Second QADeployJob 
+    - bash: echo  Second QADeployJob 
 - stage: ProdDeploy
   jobs:
   - job: First job
     steps: 
-    - bash: echo Build First ProdDeployJob
+    - bash: echo  First ProdDeployJob
   - job: Second job
     steps: 
     - bash: echo SK says All steps of All JObs in all Stages are complete
