@@ -10,7 +10,7 @@ stages:
   jobs:
   - job: First job
     steps: 
-    - bash: echo "Build First Job"
+    - bash: echo Build First Job
   - job: Second job
     steps: 
     - bash: echo Build Second Job  
@@ -18,7 +18,7 @@ stages:
   jobs:
   - job: First job
     steps: 
-    - bash: echo "Build First QADeployJob"
+    - bash: echo Build First QADeployJob
   - job: Second job
     steps: 
     - bash: echo Build Second QADeployJob 
@@ -26,10 +26,10 @@ stages:
   jobs:
   - job: First job
     steps: 
-    - bash: echo "Build First ProdDeployJob"
+    - bash: echo Build First ProdDeployJob
   - job: Second job
     steps: 
-    - bash: echo SK says All steps of All JObs in all Stages are complete!
+    - bash: echo SK says All steps of All JObs in all Stages are complete
 
 
 
