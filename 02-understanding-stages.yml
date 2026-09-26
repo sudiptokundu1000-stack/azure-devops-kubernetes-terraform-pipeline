@@ -11,23 +11,23 @@ stages:
   - job: Firstjob
     steps: 
     - bash: echo FirstJob
-  - job: Second job
+  - job: Secondjob
     steps: 
     - bash: echo  SecondJob  
 - stage: QADeploy
   jobs:
-  - job: First job
+  - job: Firstjob
     steps: 
     - bash: echo  First QADeployJob
-  - job: Second job
+  - job: Secondjob
     steps: 
     - bash: echo  Second QADeployJob 
 - stage: ProdDeploy
   jobs:
-  - job: First job
+  - job: Firstjob
     steps: 
     - bash: echo  First ProdDeployJob
-  - job: Second job
+  - job: Secondjob
     steps: 
     - bash: echo SK says All steps of All JObs in all Stages are complete
 
