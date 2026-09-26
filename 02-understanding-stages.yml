@@ -29,9 +29,7 @@ stages:
     - bash: echo "Build First ProdDeployJob"
   - job: Second job
     steps: 
-    - bash: echo Build Second ProdDeployJob 
-steps:
-- script: echo SK says All steps of All JObs in all Stages are complete!
-  displayName: 'Run a one-line script'
+    - bash: echo SK says All steps of All JObs in all Stages are complete!
+
 
 
